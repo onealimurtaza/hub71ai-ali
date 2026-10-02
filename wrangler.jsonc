@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
+  "name": "arrival-abu-dhabi",
+  "main": "dist/server/index.js",
+  "compatibility_date": "2026-10-02",
+  "workers_dev": true,
+  "preview_urls": false,
+  "vars": {
+    "OPENAI_MODEL": "gpt-4.1-mini"
+  }
+}
