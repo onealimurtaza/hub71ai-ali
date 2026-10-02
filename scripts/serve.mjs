@@ -1,0 +1,5 @@
+import {createServer} from 'node:http';import {readdir,readFile} from 'node:fs/promises';import {createHandler} from '../server/worker.mjs';
+const root=new URL('../web/',import.meta.url),assets={},types={html:'text/html; charset=utf-8',css:'text/css; charset=utf-8',js:'text/javascript; charset=utf-8'};
+for(const file of await readdir(root)){const ext=file.split('.').pop();if(types[ext])assets['/'+file]={content:await readFile(new URL(file,root),'utf8'),type:types[ext]};}
+const handler=createHandler({assets});const port=Number(process.env.PORT||3000);
+createServer(async(req,res)=>{try{let body='';for await(const chunk of req){body+=chunk;if(body.length>24000){res.writeHead(413);res.end('Too large');return}}const request=new Request('http://localhost:'+port+req.url,{method:req.method,headers:req.headers,...(['GET','HEAD'].includes(req.method)?{}:{body})});const response=await handler.fetch(request,process.env);res.writeHead(response.status,Object.fromEntries(response.headers));res.end(Buffer.from(await response.arrayBuffer()))}catch{res.writeHead(500);res.end('Server error')}}).listen(port,()=>console.log('Arrival running at http://localhost:'+port));

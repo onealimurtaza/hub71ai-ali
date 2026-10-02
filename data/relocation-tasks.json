@@ -1,0 +1,2611 @@
+{
+  "description": "Snapshot of Arrival task rules and their source links; no live eligibility decisions.",
+  "reviewDate": "2026-10-02",
+  "sources": {
+    "entry": "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae",
+    "work": "https://u.ae/en/information-and-services/jobs/employment-in-the-private-sector/preparing-to-work",
+    "residence": "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/general-provisions-for-the-residence-visa",
+    "family": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-family-members",
+    "green": "https://www.added.gov.ae/en/live/long-term-residency/abu-dhabi-green-visa/for-freelancers",
+    "golden": "https://icp.gov.ae/en/services/uae-golden-residency/",
+    "retire": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-the-retired",
+    "icp": "https://icp.gov.ae/",
+    "tamm": "https://www.tamm.abudhabi/",
+    "business": "https://www.added.gov.ae/en/set-up/establish-your-business",
+    "zones": "https://www.added.gov.ae/en/grow/competitive-landscape/mainland-and-freezones",
+    "tax": "https://tax.gov.ae/",
+    "hafilat": "https://admobility.gov.ae/en/Hafilat",
+    "taxi": "https://admobility.gov.ae/en/taxi-booking",
+    "adgm": "https://www.adgm.com/",
+    "familyoffice": "https://www.adgm.com/business-areas/family-offices",
+    "health": "https://www.doh.gov.ae/",
+    "mohre": "https://www.mohre.gov.ae/",
+    "housing": "https://mservices.dma.abudhabi.ae/mservices/account/login?l=en",
+    "residents": "https://www.adro.gov.ae/",
+    "mofa": "https://www.mofa.gov.ae/"
+  },
+  "scenarios": [
+    {
+      "id": "work",
+      "profile": {
+        "destination": "Abu Dhabi",
+        "goal": "work",
+        "household": "Just me",
+        "job": "search",
+        "trading": "own"
+      },
+      "tasks": [
+        {
+          "id": "entry",
+          "phase": "Before you arrive",
+          "title": "Confirm your entry route",
+          "body": "Check the entry requirements for your passport nationality and travel purpose with the official portal and airline. Your current country of residence alone does not establish visa eligibility. Confirm passport validity and any required permit before booking.",
+          "links": [
+            [
+              "UAE entry guidance",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "work",
+          "phase": "Before you arrive",
+          "title": "Start your job search before travelling",
+          "body": "Prepare a targeted CV and use employer career pages, LinkedIn, Bayt and GulfTalent. Contact recruiters relevant to your industry and request an online meeting or an appointment; interviews and placements are not guaranteed. Verify offers before paying any intermediary.",
+          "links": [
+            [
+              "LinkedIn",
+              "https://www.linkedin.com/jobs/"
+            ],
+            [
+              "Bayt",
+              "https://www.bayt.com/"
+            ],
+            [
+              "GulfTalent",
+              "https://www.gulftalent.com/"
+            ],
+            [
+              "Hays UAE",
+              "https://www.hays.ae/"
+            ],
+            [
+              "Michael Page UAE",
+              "https://www.michaelpage.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "documents",
+          "phase": "Before you arrive",
+          "title": "Prepare the documents your route needs",
+          "body": "Request the authority’s current checklist for passports, photos, qualifications, company papers or family certificates. Confirm attestation and translation requirements for each document; not every foreign-issued document follows the same process.",
+          "links": [
+            [
+              "MOFA attestation services",
+              "https://www.mofa.gov.ae/"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "flight",
+          "phase": "Before you arrive",
+          "title": "Arrange your flight and airport transfer",
+          "body": "Include Etihad when comparing flights to Abu Dhabi. Check entry requirements, baggage, flexible fares and cancellation terms. Keep your temporary accommodation address and arrival documents handy; arrange a licensed airport transfer.",
+          "links": [
+            [
+              "Etihad",
+              "https://www.etihad.com/"
+            ],
+            [
+              "Abu Dhabi Taxi",
+              "https://admobility.gov.ae/en/taxi-booking"
+            ]
+          ]
+        },
+        {
+          "id": "stay",
+          "phase": "Before you arrive",
+          "title": "Start with a flexible temporary home",
+          "body": "Compare hotel apartments, serviced apartments and suitable holiday-home listings before signing a long lease. Check total cost, cancellation, kitchen/laundry facilities, listing permissions and the commute. For a family, check room capacity and nearby everyday services.",
+          "links": [
+            [
+              "Booking.com",
+              "https://www.booking.com/"
+            ],
+            [
+              "Airbnb",
+              "https://www.airbnb.com/"
+            ],
+            [
+              "Living in Abu Dhabi",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "medical",
+          "phase": "Your first days",
+          "title": "Coordinate residence, medical and Emirates ID",
+          "body": "Follow your sponsor or authority’s sequence. Residence applicants aged 18 and over generally need medical fitness screening. Use an approved centre, complete required Emirates ID application/biometrics and track residence processing. Timelines depend on the route and appointments.",
+          "links": [
+            [
+              "Residence requirements",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/general-provisions-for-the-residence-visa"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ]
+          ]
+        },
+        {
+          "id": "health",
+          "phase": "Your first days",
+          "title": "Arrange your health insurance",
+          "body": "Check Abu Dhabi health insurance requirements and who must arrange and pay for coverage. Compare networks, exclusions, waiting periods and pre-existing-condition cover. Residence medical screening is separate from insurance; include dependants and elderly parents in the insurance discussion.",
+          "links": [
+            [
+              "Department of Health Abu Dhabi",
+              "https://www.doh.gov.ae/"
+            ],
+            [
+              "Abu Dhabi Residents Office",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "identity",
+          "phase": "Your first days",
+          "title": "Connect your phone and government services",
+          "body": "Arrange a SIM with a licensed provider, checking the identification requirements. Set up UAE PASS where eligible and use TAMM and ICP for the services relevant to your route. Some services require their own apps even though this planner works in the browser.",
+          "links": [
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "e& UAE",
+              "https://www.etisalat.ae/"
+            ],
+            [
+              "du",
+              "https://www.du.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "transport",
+          "phase": "Your first days",
+          "title": "Get around with taxis and Hafilat buses",
+          "body": "Use Abu Dhabi Taxi and check live availability and fares with ride providers. Abu Dhabi public buses use Hafilat cards; consult Abu Dhabi Mobility for card and route details. Compare your likely commute before deciding on a car.",
+          "links": [
+            [
+              "Abu Dhabi Taxi",
+              "https://admobility.gov.ae/en/taxi-booking"
+            ],
+            [
+              "Hafilat",
+              "https://admobility.gov.ae/en/Hafilat"
+            ],
+            [
+              "Uber Abu Dhabi",
+              "https://www.uber.com/global/en/r/cities/abu-dhabi-abu-dhabi-ae/"
+            ],
+            [
+              "Careem",
+              "https://www.careem.com/"
+            ],
+            [
+              "Yango",
+              "https://yango.com/"
+            ]
+          ]
+        },
+        {
+          "id": "bank",
+          "phase": "Get settled",
+          "title": "Prepare for personal and business banking",
+          "body": "Ask the selected bank for its current account requirements, identity/residence evidence and any income or address records. Business accounts need a separate corporate and beneficial-owner file. Approval, minimum balances and timelines depend on the bank.",
+          "links": [
+            [
+              "FAB",
+              "https://www.bankfab.com/"
+            ],
+            [
+              "ADCB",
+              "https://www.adcb.com/"
+            ],
+            [
+              "Wio",
+              "https://wio.io/"
+            ]
+          ]
+        },
+        {
+          "id": "home",
+          "phase": "Get settled",
+          "title": "Decide where to live after exploring",
+          "body": "Compare areas such as Al Reem, Yas, Saadiyat and Al Raha against your commute, household needs and budget. Inspect homes, verify agents and review payment terms. For a long-term lease, confirm Tawtheeq registration and utility requirements; for a purchase, obtain legal and financial due diligence.",
+          "links": [
+            [
+              "Tenancy services",
+              "https://mservices.dma.abudhabi.ae/mservices/account/login?l=en"
+            ],
+            [
+              "Property Finder",
+              "https://www.propertyfinder.ae/"
+            ],
+            [
+              "Abu Dhabi Residents Office",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "daily",
+          "phase": "Feel at home",
+          "title": "Set up everyday services and local connections",
+          "body": "Check food and shopping delivery coverage at your address. Browse professional and community events, arrange introductions and find a regular activity. Confirm organisers’ current dates and registration requirements.",
+          "links": [
+            [
+              "Talabat",
+              "https://www.talabat.com/uae/city/abu-dhabi"
+            ],
+            [
+              "noon Food",
+              "https://food.noon.com/"
+            ],
+            [
+              "noon",
+              "https://www.noon.com/uae-en/"
+            ],
+            [
+              "Hub71 events",
+              "https://www.hub71.com/index.php/events"
+            ],
+            [
+              "Visit Abu Dhabi",
+              "https://visitabudhabi.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "renewals",
+          "phase": "Feel at home",
+          "title": "Track costs, renewals and next steps",
+          "body": "Use the budget worksheet to enter confirmed quotes for travel, temporary housing, permits, insurance, deposits and living costs. Note which costs the employer covers. Add residence, ID, policy, licence and lease expiry dates to your calendar; residence is renewable, not a promise of permanent status.",
+          "links": [
+            [
+              "Open checklist & budget",
+              "planner.html"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "profile": {
+        "destination": "Abu Dhabi",
+        "goal": "family",
+        "household": "Just me",
+        "job": "search",
+        "trading": "own"
+      },
+      "tasks": [
+        {
+          "id": "entry",
+          "phase": "Before you arrive",
+          "title": "Confirm your entry route",
+          "body": "Check the entry requirements for your passport nationality and travel purpose with the official portal and airline. Your current country of residence alone does not establish visa eligibility. Confirm passport validity and any required permit before booking.",
+          "links": [
+            [
+              "UAE entry guidance",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "work",
+          "phase": "Before you arrive",
+          "title": "Start your job search before travelling",
+          "body": "Prepare a targeted CV and use employer career pages, LinkedIn, Bayt and GulfTalent. Contact recruiters relevant to your industry and request an online meeting or an appointment; interviews and placements are not guaranteed. Verify offers before paying any intermediary.",
+          "links": [
+            [
+              "LinkedIn",
+              "https://www.linkedin.com/jobs/"
+            ],
+            [
+              "Bayt",
+              "https://www.bayt.com/"
+            ],
+            [
+              "GulfTalent",
+              "https://www.gulftalent.com/"
+            ],
+            [
+              "Hays UAE",
+              "https://www.hays.ae/"
+            ],
+            [
+              "Michael Page UAE",
+              "https://www.michaelpage.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "documents",
+          "phase": "Before you arrive",
+          "title": "Prepare the documents your route needs",
+          "body": "Request the authority’s current checklist for passports, photos, qualifications, company papers or family certificates. Confirm attestation and translation requirements for each document; not every foreign-issued document follows the same process.",
+          "links": [
+            [
+              "MOFA attestation services",
+              "https://www.mofa.gov.ae/"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "flight",
+          "phase": "Before you arrive",
+          "title": "Arrange your flight and airport transfer",
+          "body": "Include Etihad when comparing flights to Abu Dhabi. Check entry requirements, baggage, flexible fares and cancellation terms. Keep your temporary accommodation address and arrival documents handy; arrange a licensed airport transfer.",
+          "links": [
+            [
+              "Etihad",
+              "https://www.etihad.com/"
+            ],
+            [
+              "Abu Dhabi Taxi",
+              "https://admobility.gov.ae/en/taxi-booking"
+            ]
+          ]
+        },
+        {
+          "id": "stay",
+          "phase": "Before you arrive",
+          "title": "Start with a flexible temporary home",
+          "body": "Compare hotel apartments, serviced apartments and suitable holiday-home listings before signing a long lease. Check total cost, cancellation, kitchen/laundry facilities, listing permissions and the commute. For a family, check room capacity and nearby everyday services.",
+          "links": [
+            [
+              "Booking.com",
+              "https://www.booking.com/"
+            ],
+            [
+              "Airbnb",
+              "https://www.airbnb.com/"
+            ],
+            [
+              "Living in Abu Dhabi",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "medical",
+          "phase": "Your first days",
+          "title": "Coordinate residence, medical and Emirates ID",
+          "body": "Follow your sponsor or authority’s sequence. Residence applicants aged 18 and over generally need medical fitness screening. Use an approved centre, complete required Emirates ID application/biometrics and track residence processing. Timelines depend on the route and appointments.",
+          "links": [
+            [
+              "Residence requirements",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/general-provisions-for-the-residence-visa"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ]
+          ]
+        },
+        {
+          "id": "health",
+          "phase": "Your first days",
+          "title": "Arrange your health insurance",
+          "body": "Check Abu Dhabi health insurance requirements and who must arrange and pay for coverage. Compare networks, exclusions, waiting periods and pre-existing-condition cover. Residence medical screening is separate from insurance; include dependants and elderly parents in the insurance discussion.",
+          "links": [
+            [
+              "Department of Health Abu Dhabi",
+              "https://www.doh.gov.ae/"
+            ],
+            [
+              "Abu Dhabi Residents Office",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "identity",
+          "phase": "Your first days",
+          "title": "Connect your phone and government services",
+          "body": "Arrange a SIM with a licensed provider, checking the identification requirements. Set up UAE PASS where eligible and use TAMM and ICP for the services relevant to your route. Some services require their own apps even though this planner works in the browser.",
+          "links": [
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "e& UAE",
+              "https://www.etisalat.ae/"
+            ],
+            [
+              "du",
+              "https://www.du.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "transport",
+          "phase": "Your first days",
+          "title": "Get around with taxis and Hafilat buses",
+          "body": "Use Abu Dhabi Taxi and check live availability and fares with ride providers. Abu Dhabi public buses use Hafilat cards; consult Abu Dhabi Mobility for card and route details. Compare your likely commute before deciding on a car.",
+          "links": [
+            [
+              "Abu Dhabi Taxi",
+              "https://admobility.gov.ae/en/taxi-booking"
+            ],
+            [
+              "Hafilat",
+              "https://admobility.gov.ae/en/Hafilat"
+            ],
+            [
+              "Uber Abu Dhabi",
+              "https://www.uber.com/global/en/r/cities/abu-dhabi-abu-dhabi-ae/"
+            ],
+            [
+              "Careem",
+              "https://www.careem.com/"
+            ],
+            [
+              "Yango",
+              "https://yango.com/"
+            ]
+          ]
+        },
+        {
+          "id": "bank",
+          "phase": "Get settled",
+          "title": "Prepare for personal and business banking",
+          "body": "Ask the selected bank for its current account requirements, identity/residence evidence and any income or address records. Business accounts need a separate corporate and beneficial-owner file. Approval, minimum balances and timelines depend on the bank.",
+          "links": [
+            [
+              "FAB",
+              "https://www.bankfab.com/"
+            ],
+            [
+              "ADCB",
+              "https://www.adcb.com/"
+            ],
+            [
+              "Wio",
+              "https://wio.io/"
+            ]
+          ]
+        },
+        {
+          "id": "home",
+          "phase": "Get settled",
+          "title": "Decide where to live after exploring",
+          "body": "Compare areas such as Al Reem, Yas, Saadiyat and Al Raha against your commute, household needs and budget. Inspect homes, verify agents and review payment terms. For a long-term lease, confirm Tawtheeq registration and utility requirements; for a purchase, obtain legal and financial due diligence.",
+          "links": [
+            [
+              "Tenancy services",
+              "https://mservices.dma.abudhabi.ae/mservices/account/login?l=en"
+            ],
+            [
+              "Property Finder",
+              "https://www.propertyfinder.ae/"
+            ],
+            [
+              "Abu Dhabi Residents Office",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "daily",
+          "phase": "Feel at home",
+          "title": "Set up everyday services and local connections",
+          "body": "Check food and shopping delivery coverage at your address. Browse professional and community events, arrange introductions and find a regular activity. Confirm organisers’ current dates and registration requirements.",
+          "links": [
+            [
+              "Talabat",
+              "https://www.talabat.com/uae/city/abu-dhabi"
+            ],
+            [
+              "noon Food",
+              "https://food.noon.com/"
+            ],
+            [
+              "noon",
+              "https://www.noon.com/uae-en/"
+            ],
+            [
+              "Hub71 events",
+              "https://www.hub71.com/index.php/events"
+            ],
+            [
+              "Visit Abu Dhabi",
+              "https://visitabudhabi.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "renewals",
+          "phase": "Feel at home",
+          "title": "Track costs, renewals and next steps",
+          "body": "Use the budget worksheet to enter confirmed quotes for travel, temporary housing, permits, insurance, deposits and living costs. Note which costs the employer covers. Add residence, ID, policy, licence and lease expiry dates to your calendar; residence is renewable, not a promise of permanent status.",
+          "links": [
+            [
+              "Open checklist & budget",
+              "planner.html"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "freelance",
+      "profile": {
+        "destination": "Abu Dhabi",
+        "goal": "freelance",
+        "household": "Just me",
+        "job": "search",
+        "trading": "own"
+      },
+      "tasks": [
+        {
+          "id": "entry",
+          "phase": "Before you arrive",
+          "title": "Confirm your entry route",
+          "body": "Check the entry requirements for your passport nationality and travel purpose with the official portal and airline. Your current country of residence alone does not establish visa eligibility. Confirm passport validity and any required permit before booking.",
+          "links": [
+            [
+              "UAE entry guidance",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "freelance",
+          "phase": "Before you arrive",
+          "title": "Compare freelance permission and Green Residence",
+          "body": "Confirm which licence or work permit authorises your activity and clients. The freelance Green Residence category requires a MOHRE freelance permit, qualifying education and income evidence or financial solvency. Ask the authorities how your selected licensing route fits those requirements.",
+          "links": [
+            [
+              "Official Green Residence criteria",
+              "https://www.added.gov.ae/en/live/long-term-residency/abu-dhabi-green-visa/for-freelancers"
+            ],
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ],
+            [
+              "MOHRE",
+              "https://www.mohre.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "documents",
+          "phase": "Before you arrive",
+          "title": "Prepare the documents your route needs",
+          "body": "Request the authority’s current checklist for passports, photos, qualifications, company papers or family certificates. Confirm attestation and translation requirements for each document; not every foreign-issued document follows the same process.",
+          "links": [
+            [
+              "MOFA attestation services",
+              "https://www.mofa.gov.ae/"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "flight",
+          "phase": "Before you arrive",
+          "title": "Arrange your flight and airport transfer",
+          "body": "Include Etihad when comparing flights to Abu Dhabi. Check entry requirements, baggage, flexible fares and cancellation terms. Keep your temporary accommodation address and arrival documents handy; arrange a licensed airport transfer.",
+          "links": [
+            [
+              "Etihad",
+              "https://www.etihad.com/"
+            ],
+            [
+              "Abu Dhabi Taxi",
+              "https://admobility.gov.ae/en/taxi-booking"
+            ]
+          ]
+        },
+        {
+          "id": "stay",
+          "phase": "Before you arrive",
+          "title": "Start with a flexible temporary home",
+          "body": "Compare hotel apartments, serviced apartments and suitable holiday-home listings before signing a long lease. Check total cost, cancellation, kitchen/laundry facilities, listing permissions and the commute. For a family, check room capacity and nearby everyday services.",
+          "links": [
+            [
+              "Booking.com",
+              "https://www.booking.com/"
+            ],
+            [
+              "Airbnb",
+              "https://www.airbnb.com/"
+            ],
+            [
+              "Living in Abu Dhabi",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "medical",
+          "phase": "Your first days",
+          "title": "Coordinate residence, medical and Emirates ID",
+          "body": "Follow your sponsor or authority’s sequence. Residence applicants aged 18 and over generally need medical fitness screening. Use an approved centre, complete required Emirates ID application/biometrics and track residence processing. Timelines depend on the route and appointments.",
+          "links": [
+            [
+              "Residence requirements",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/general-provisions-for-the-residence-visa"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ]
+          ]
+        },
+        {
+          "id": "health",
+          "phase": "Your first days",
+          "title": "Arrange your health insurance",
+          "body": "Check Abu Dhabi health insurance requirements and who must arrange and pay for coverage. Compare networks, exclusions, waiting periods and pre-existing-condition cover. Residence medical screening is separate from insurance; include dependants and elderly parents in the insurance discussion.",
+          "links": [
+            [
+              "Department of Health Abu Dhabi",
+              "https://www.doh.gov.ae/"
+            ],
+            [
+              "Abu Dhabi Residents Office",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "identity",
+          "phase": "Your first days",
+          "title": "Connect your phone and government services",
+          "body": "Arrange a SIM with a licensed provider, checking the identification requirements. Set up UAE PASS where eligible and use TAMM and ICP for the services relevant to your route. Some services require their own apps even though this planner works in the browser.",
+          "links": [
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "e& UAE",
+              "https://www.etisalat.ae/"
+            ],
+            [
+              "du",
+              "https://www.du.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "transport",
+          "phase": "Your first days",
+          "title": "Get around with taxis and Hafilat buses",
+          "body": "Use Abu Dhabi Taxi and check live availability and fares with ride providers. Abu Dhabi public buses use Hafilat cards; consult Abu Dhabi Mobility for card and route details. Compare your likely commute before deciding on a car.",
+          "links": [
+            [
+              "Abu Dhabi Taxi",
+              "https://admobility.gov.ae/en/taxi-booking"
+            ],
+            [
+              "Hafilat",
+              "https://admobility.gov.ae/en/Hafilat"
+            ],
+            [
+              "Uber Abu Dhabi",
+              "https://www.uber.com/global/en/r/cities/abu-dhabi-abu-dhabi-ae/"
+            ],
+            [
+              "Careem",
+              "https://www.careem.com/"
+            ],
+            [
+              "Yango",
+              "https://yango.com/"
+            ]
+          ]
+        },
+        {
+          "id": "bank",
+          "phase": "Get settled",
+          "title": "Prepare for personal and business banking",
+          "body": "Ask the selected bank for its current account requirements, identity/residence evidence and any income or address records. Business accounts need a separate corporate and beneficial-owner file. Approval, minimum balances and timelines depend on the bank.",
+          "links": [
+            [
+              "FAB",
+              "https://www.bankfab.com/"
+            ],
+            [
+              "ADCB",
+              "https://www.adcb.com/"
+            ],
+            [
+              "Wio",
+              "https://wio.io/"
+            ]
+          ]
+        },
+        {
+          "id": "tax",
+          "phase": "Get settled",
+          "title": "Check business, tax and recordkeeping obligations",
+          "body": "Review corporate tax, VAT and filing obligations for the actual activity and entity. Free-zone treatment is conditional. Separate personal investment from business activity, and ask an adviser about cross-border tax residence. Keep sourced records rather than relying on a blanket “tax-free” claim.",
+          "links": [
+            [
+              "Federal Tax Authority",
+              "https://tax.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "home",
+          "phase": "Get settled",
+          "title": "Decide where to live after exploring",
+          "body": "Compare areas such as Al Reem, Yas, Saadiyat and Al Raha against your commute, household needs and budget. Inspect homes, verify agents and review payment terms. For a long-term lease, confirm Tawtheeq registration and utility requirements; for a purchase, obtain legal and financial due diligence.",
+          "links": [
+            [
+              "Tenancy services",
+              "https://mservices.dma.abudhabi.ae/mservices/account/login?l=en"
+            ],
+            [
+              "Property Finder",
+              "https://www.propertyfinder.ae/"
+            ],
+            [
+              "Abu Dhabi Residents Office",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "daily",
+          "phase": "Feel at home",
+          "title": "Set up everyday services and local connections",
+          "body": "Check food and shopping delivery coverage at your address. Browse professional and community events, arrange introductions and find a regular activity. Confirm organisers’ current dates and registration requirements.",
+          "links": [
+            [
+              "Talabat",
+              "https://www.talabat.com/uae/city/abu-dhabi"
+            ],
+            [
+              "noon Food",
+              "https://food.noon.com/"
+            ],
+            [
+              "noon",
+              "https://www.noon.com/uae-en/"
+            ],
+            [
+              "Hub71 events",
+              "https://www.hub71.com/index.php/events"
+            ],
+            [
+              "Visit Abu Dhabi",
+              "https://visitabudhabi.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "renewals",
+          "phase": "Feel at home",
+          "title": "Track costs, renewals and next steps",
+          "body": "Use the budget worksheet to enter confirmed quotes for travel, temporary housing, permits, insurance, deposits and living costs. Note which costs the employer covers. Add residence, ID, policy, licence and lease expiry dates to your calendar; residence is renewable, not a promise of permanent status.",
+          "links": [
+            [
+              "Open checklist & budget",
+              "planner.html"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "profile": {
+        "destination": "Abu Dhabi",
+        "goal": "business",
+        "household": "Just me",
+        "job": "search",
+        "trading": "own"
+      },
+      "tasks": [
+        {
+          "id": "entry",
+          "phase": "Before you arrive",
+          "title": "Confirm your entry route",
+          "body": "Check the entry requirements for your passport nationality and travel purpose with the official portal and airline. Your current country of residence alone does not establish visa eligibility. Confirm passport validity and any required permit before booking.",
+          "links": [
+            [
+              "UAE entry guidance",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "business",
+          "phase": "Before you arrive",
+          "title": "Choose your business setup route",
+          "body": "Define the exact activity, legal structure, staffing and target customers. Compare mainland and relevant free zones. Request a route-specific checklist for trade name, formation, permissions, premises, establishment records and renewal fees. A branch or representative office needs its own parent-company document review.",
+          "links": [
+            [
+              "ADDED setup",
+              "https://www.added.gov.ae/en/set-up/establish-your-business"
+            ],
+            [
+              "Compare jurisdictions",
+              "https://www.added.gov.ae/en/grow/competitive-landscape/mainland-and-freezones"
+            ],
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ]
+          ]
+        },
+        {
+          "id": "documents",
+          "phase": "Before you arrive",
+          "title": "Prepare the documents your route needs",
+          "body": "Request the authority’s current checklist for passports, photos, qualifications, company papers or family certificates. Confirm attestation and translation requirements for each document; not every foreign-issued document follows the same process.",
+          "links": [
+            [
+              "MOFA attestation services",
+              "https://www.mofa.gov.ae/"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "flight",
+          "phase": "Before you arrive",
+          "title": "Arrange your flight and airport transfer",
+          "body": "Include Etihad when comparing flights to Abu Dhabi. Check entry requirements, baggage, flexible fares and cancellation terms. Keep your temporary accommodation address and arrival documents handy; arrange a licensed airport transfer.",
+          "links": [
+            [
+              "Etihad",
+              "https://www.etihad.com/"
+            ],
+            [
+              "Abu Dhabi Taxi",
+              "https://admobility.gov.ae/en/taxi-booking"
+            ]
+          ]
+        },
+        {
+          "id": "stay",
+          "phase": "Before you arrive",
+          "title": "Start with a flexible temporary home",
+          "body": "Compare hotel apartments, serviced apartments and suitable holiday-home listings before signing a long lease. Check total cost, cancellation, kitchen/laundry facilities, listing permissions and the commute. For a family, check room capacity and nearby everyday services.",
+          "links": [
+            [
+              "Booking.com",
+              "https://www.booking.com/"
+            ],
+            [
+              "Airbnb",
+              "https://www.airbnb.com/"
+            ],
+            [
+              "Living in Abu Dhabi",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "medical",
+          "phase": "Your first days",
+          "title": "Coordinate residence, medical and Emirates ID",
+          "body": "Follow your sponsor or authority’s sequence. Residence applicants aged 18 and over generally need medical fitness screening. Use an approved centre, complete required Emirates ID application/biometrics and track residence processing. Timelines depend on the route and appointments.",
+          "links": [
+            [
+              "Residence requirements",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/general-provisions-for-the-residence-visa"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ]
+          ]
+        },
+        {
+          "id": "health",
+          "phase": "Your first days",
+          "title": "Arrange your health insurance",
+          "body": "Check Abu Dhabi health insurance requirements and who must arrange and pay for coverage. Compare networks, exclusions, waiting periods and pre-existing-condition cover. Residence medical screening is separate from insurance; include dependants and elderly parents in the insurance discussion.",
+          "links": [
+            [
+              "Department of Health Abu Dhabi",
+              "https://www.doh.gov.ae/"
+            ],
+            [
+              "Abu Dhabi Residents Office",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "identity",
+          "phase": "Your first days",
+          "title": "Connect your phone and government services",
+          "body": "Arrange a SIM with a licensed provider, checking the identification requirements. Set up UAE PASS where eligible and use TAMM and ICP for the services relevant to your route. Some services require their own apps even though this planner works in the browser.",
+          "links": [
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "e& UAE",
+              "https://www.etisalat.ae/"
+            ],
+            [
+              "du",
+              "https://www.du.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "transport",
+          "phase": "Your first days",
+          "title": "Get around with taxis and Hafilat buses",
+          "body": "Use Abu Dhabi Taxi and check live availability and fares with ride providers. Abu Dhabi public buses use Hafilat cards; consult Abu Dhabi Mobility for card and route details. Compare your likely commute before deciding on a car.",
+          "links": [
+            [
+              "Abu Dhabi Taxi",
+              "https://admobility.gov.ae/en/taxi-booking"
+            ],
+            [
+              "Hafilat",
+              "https://admobility.gov.ae/en/Hafilat"
+            ],
+            [
+              "Uber Abu Dhabi",
+              "https://www.uber.com/global/en/r/cities/abu-dhabi-abu-dhabi-ae/"
+            ],
+            [
+              "Careem",
+              "https://www.careem.com/"
+            ],
+            [
+              "Yango",
+              "https://yango.com/"
+            ]
+          ]
+        },
+        {
+          "id": "bank",
+          "phase": "Get settled",
+          "title": "Prepare for personal and business banking",
+          "body": "Ask the selected bank for its current account requirements, identity/residence evidence and any income or address records. Business accounts need a separate corporate and beneficial-owner file. Approval, minimum balances and timelines depend on the bank.",
+          "links": [
+            [
+              "FAB",
+              "https://www.bankfab.com/"
+            ],
+            [
+              "ADCB",
+              "https://www.adcb.com/"
+            ],
+            [
+              "Wio",
+              "https://wio.io/"
+            ]
+          ]
+        },
+        {
+          "id": "tax",
+          "phase": "Get settled",
+          "title": "Check business, tax and recordkeeping obligations",
+          "body": "Review corporate tax, VAT and filing obligations for the actual activity and entity. Free-zone treatment is conditional. Separate personal investment from business activity, and ask an adviser about cross-border tax residence. Keep sourced records rather than relying on a blanket “tax-free” claim.",
+          "links": [
+            [
+              "Federal Tax Authority",
+              "https://tax.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "home",
+          "phase": "Get settled",
+          "title": "Decide where to live after exploring",
+          "body": "Compare areas such as Al Reem, Yas, Saadiyat and Al Raha against your commute, household needs and budget. Inspect homes, verify agents and review payment terms. For a long-term lease, confirm Tawtheeq registration and utility requirements; for a purchase, obtain legal and financial due diligence.",
+          "links": [
+            [
+              "Tenancy services",
+              "https://mservices.dma.abudhabi.ae/mservices/account/login?l=en"
+            ],
+            [
+              "Property Finder",
+              "https://www.propertyfinder.ae/"
+            ],
+            [
+              "Abu Dhabi Residents Office",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "daily",
+          "phase": "Feel at home",
+          "title": "Set up everyday services and local connections",
+          "body": "Check food and shopping delivery coverage at your address. Browse professional and community events, arrange introductions and find a regular activity. Confirm organisers’ current dates and registration requirements.",
+          "links": [
+            [
+              "Talabat",
+              "https://www.talabat.com/uae/city/abu-dhabi"
+            ],
+            [
+              "noon Food",
+              "https://food.noon.com/"
+            ],
+            [
+              "noon",
+              "https://www.noon.com/uae-en/"
+            ],
+            [
+              "Hub71 events",
+              "https://www.hub71.com/index.php/events"
+            ],
+            [
+              "Visit Abu Dhabi",
+              "https://visitabudhabi.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "renewals",
+          "phase": "Feel at home",
+          "title": "Track costs, renewals and next steps",
+          "body": "Use the budget worksheet to enter confirmed quotes for travel, temporary housing, permits, insurance, deposits and living costs. Note which costs the employer covers. Add residence, ID, policy, licence and lease expiry dates to your calendar; residence is renewable, not a promise of permanent status.",
+          "links": [
+            [
+              "Open checklist & budget",
+              "planner.html"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retire",
+      "profile": {
+        "destination": "Abu Dhabi",
+        "goal": "retire",
+        "household": "Just me",
+        "job": "search",
+        "trading": "own"
+      },
+      "tasks": [
+        {
+          "id": "entry",
+          "phase": "Before you arrive",
+          "title": "Confirm your entry route",
+          "body": "Check the entry requirements for your passport nationality and travel purpose with the official portal and airline. Your current country of residence alone does not establish visa eligibility. Confirm passport validity and any required permit before booking.",
+          "links": [
+            [
+              "UAE entry guidance",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "retirement",
+          "phase": "Before you arrive",
+          "title": "Check retirement eligibility and healthcare",
+          "body": "Review the official age, work-history and financial criteria. Confirm the Abu Dhabi application route and evidence with ICP. Compare health insurance at your age, including pre-existing conditions and hospital access, before committing to the move.",
+          "links": [
+            [
+              "Retirement residence guidance",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-the-retired"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "documents",
+          "phase": "Before you arrive",
+          "title": "Prepare the documents your route needs",
+          "body": "Request the authority’s current checklist for passports, photos, qualifications, company papers or family certificates. Confirm attestation and translation requirements for each document; not every foreign-issued document follows the same process.",
+          "links": [
+            [
+              "MOFA attestation services",
+              "https://www.mofa.gov.ae/"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "flight",
+          "phase": "Before you arrive",
+          "title": "Arrange your flight and airport transfer",
+          "body": "Include Etihad when comparing flights to Abu Dhabi. Check entry requirements, baggage, flexible fares and cancellation terms. Keep your temporary accommodation address and arrival documents handy; arrange a licensed airport transfer.",
+          "links": [
+            [
+              "Etihad",
+              "https://www.etihad.com/"
+            ],
+            [
+              "Abu Dhabi Taxi",
+              "https://admobility.gov.ae/en/taxi-booking"
+            ]
+          ]
+        },
+        {
+          "id": "stay",
+          "phase": "Before you arrive",
+          "title": "Start with a flexible temporary home",
+          "body": "Compare hotel apartments, serviced apartments and suitable holiday-home listings before signing a long lease. Check total cost, cancellation, kitchen/laundry facilities, listing permissions and the commute. For a family, check room capacity and nearby everyday services.",
+          "links": [
+            [
+              "Booking.com",
+              "https://www.booking.com/"
+            ],
+            [
+              "Airbnb",
+              "https://www.airbnb.com/"
+            ],
+            [
+              "Living in Abu Dhabi",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "medical",
+          "phase": "Your first days",
+          "title": "Coordinate residence, medical and Emirates ID",
+          "body": "Follow your sponsor or authority’s sequence. Residence applicants aged 18 and over generally need medical fitness screening. Use an approved centre, complete required Emirates ID application/biometrics and track residence processing. Timelines depend on the route and appointments.",
+          "links": [
+            [
+              "Residence requirements",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/general-provisions-for-the-residence-visa"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ]
+          ]
+        },
+        {
+          "id": "health",
+          "phase": "Your first days",
+          "title": "Arrange your health insurance",
+          "body": "Check Abu Dhabi health insurance requirements and who must arrange and pay for coverage. Compare networks, exclusions, waiting periods and pre-existing-condition cover. Residence medical screening is separate from insurance; include dependants and elderly parents in the insurance discussion.",
+          "links": [
+            [
+              "Department of Health Abu Dhabi",
+              "https://www.doh.gov.ae/"
+            ],
+            [
+              "Abu Dhabi Residents Office",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "identity",
+          "phase": "Your first days",
+          "title": "Connect your phone and government services",
+          "body": "Arrange a SIM with a licensed provider, checking the identification requirements. Set up UAE PASS where eligible and use TAMM and ICP for the services relevant to your route. Some services require their own apps even though this planner works in the browser.",
+          "links": [
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "e& UAE",
+              "https://www.etisalat.ae/"
+            ],
+            [
+              "du",
+              "https://www.du.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "transport",
+          "phase": "Your first days",
+          "title": "Get around with taxis and Hafilat buses",
+          "body": "Use Abu Dhabi Taxi and check live availability and fares with ride providers. Abu Dhabi public buses use Hafilat cards; consult Abu Dhabi Mobility for card and route details. Compare your likely commute before deciding on a car.",
+          "links": [
+            [
+              "Abu Dhabi Taxi",
+              "https://admobility.gov.ae/en/taxi-booking"
+            ],
+            [
+              "Hafilat",
+              "https://admobility.gov.ae/en/Hafilat"
+            ],
+            [
+              "Uber Abu Dhabi",
+              "https://www.uber.com/global/en/r/cities/abu-dhabi-abu-dhabi-ae/"
+            ],
+            [
+              "Careem",
+              "https://www.careem.com/"
+            ],
+            [
+              "Yango",
+              "https://yango.com/"
+            ]
+          ]
+        },
+        {
+          "id": "bank",
+          "phase": "Get settled",
+          "title": "Prepare for personal and business banking",
+          "body": "Ask the selected bank for its current account requirements, identity/residence evidence and any income or address records. Business accounts need a separate corporate and beneficial-owner file. Approval, minimum balances and timelines depend on the bank.",
+          "links": [
+            [
+              "FAB",
+              "https://www.bankfab.com/"
+            ],
+            [
+              "ADCB",
+              "https://www.adcb.com/"
+            ],
+            [
+              "Wio",
+              "https://wio.io/"
+            ]
+          ]
+        },
+        {
+          "id": "home",
+          "phase": "Get settled",
+          "title": "Decide where to live after exploring",
+          "body": "Compare areas such as Al Reem, Yas, Saadiyat and Al Raha against your commute, household needs and budget. Inspect homes, verify agents and review payment terms. For a long-term lease, confirm Tawtheeq registration and utility requirements; for a purchase, obtain legal and financial due diligence.",
+          "links": [
+            [
+              "Tenancy services",
+              "https://mservices.dma.abudhabi.ae/mservices/account/login?l=en"
+            ],
+            [
+              "Property Finder",
+              "https://www.propertyfinder.ae/"
+            ],
+            [
+              "Abu Dhabi Residents Office",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "daily",
+          "phase": "Feel at home",
+          "title": "Set up everyday services and local connections",
+          "body": "Check food and shopping delivery coverage at your address. Browse professional and community events, arrange introductions and find a regular activity. Confirm organisers’ current dates and registration requirements.",
+          "links": [
+            [
+              "Talabat",
+              "https://www.talabat.com/uae/city/abu-dhabi"
+            ],
+            [
+              "noon Food",
+              "https://food.noon.com/"
+            ],
+            [
+              "noon",
+              "https://www.noon.com/uae-en/"
+            ],
+            [
+              "Hub71 events",
+              "https://www.hub71.com/index.php/events"
+            ],
+            [
+              "Visit Abu Dhabi",
+              "https://visitabudhabi.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "renewals",
+          "phase": "Feel at home",
+          "title": "Track costs, renewals and next steps",
+          "body": "Use the budget worksheet to enter confirmed quotes for travel, temporary housing, permits, insurance, deposits and living costs. Note which costs the employer covers. Add residence, ID, policy, licence and lease expiry dates to your calendar; residence is renewable, not a promise of permanent status.",
+          "links": [
+            [
+              "Open checklist & budget",
+              "planner.html"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "invest",
+      "profile": {
+        "destination": "Abu Dhabi",
+        "goal": "invest",
+        "household": "Just me",
+        "job": "search",
+        "trading": "own"
+      },
+      "tasks": [
+        {
+          "id": "entry",
+          "phase": "Before you arrive",
+          "title": "Confirm your entry route",
+          "body": "Check the entry requirements for your passport nationality and travel purpose with the official portal and airline. Your current country of residence alone does not establish visa eligibility. Confirm passport validity and any required permit before booking.",
+          "links": [
+            [
+              "UAE entry guidance",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "golden",
+          "phase": "Before you arrive",
+          "title": "Review investment and Golden Residency options",
+          "body": "Choose the relevant category and confirm every evidence requirement. For property, verify the title, financing conditions and whether the proposed investment qualifies before purchase. Do not assume the investment or this profile guarantees a Golden Visa.",
+          "links": [
+            [
+              "ICP Golden Residency",
+              "https://icp.gov.ae/en/services/uae-golden-residency/"
+            ],
+            [
+              "Abu Dhabi services",
+              "https://www.tamm.abudhabi/"
+            ]
+          ]
+        },
+        {
+          "id": "documents",
+          "phase": "Before you arrive",
+          "title": "Prepare the documents your route needs",
+          "body": "Request the authority’s current checklist for passports, photos, qualifications, company papers or family certificates. Confirm attestation and translation requirements for each document; not every foreign-issued document follows the same process.",
+          "links": [
+            [
+              "MOFA attestation services",
+              "https://www.mofa.gov.ae/"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "flight",
+          "phase": "Before you arrive",
+          "title": "Arrange your flight and airport transfer",
+          "body": "Include Etihad when comparing flights to Abu Dhabi. Check entry requirements, baggage, flexible fares and cancellation terms. Keep your temporary accommodation address and arrival documents handy; arrange a licensed airport transfer.",
+          "links": [
+            [
+              "Etihad",
+              "https://www.etihad.com/"
+            ],
+            [
+              "Abu Dhabi Taxi",
+              "https://admobility.gov.ae/en/taxi-booking"
+            ]
+          ]
+        },
+        {
+          "id": "stay",
+          "phase": "Before you arrive",
+          "title": "Start with a flexible temporary home",
+          "body": "Compare hotel apartments, serviced apartments and suitable holiday-home listings before signing a long lease. Check total cost, cancellation, kitchen/laundry facilities, listing permissions and the commute. For a family, check room capacity and nearby everyday services.",
+          "links": [
+            [
+              "Booking.com",
+              "https://www.booking.com/"
+            ],
+            [
+              "Airbnb",
+              "https://www.airbnb.com/"
+            ],
+            [
+              "Living in Abu Dhabi",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "medical",
+          "phase": "Your first days",
+          "title": "Coordinate residence, medical and Emirates ID",
+          "body": "Follow your sponsor or authority’s sequence. Residence applicants aged 18 and over generally need medical fitness screening. Use an approved centre, complete required Emirates ID application/biometrics and track residence processing. Timelines depend on the route and appointments.",
+          "links": [
+            [
+              "Residence requirements",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/general-provisions-for-the-residence-visa"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ]
+          ]
+        },
+        {
+          "id": "health",
+          "phase": "Your first days",
+          "title": "Arrange your health insurance",
+          "body": "Check Abu Dhabi health insurance requirements and who must arrange and pay for coverage. Compare networks, exclusions, waiting periods and pre-existing-condition cover. Residence medical screening is separate from insurance; include dependants and elderly parents in the insurance discussion.",
+          "links": [
+            [
+              "Department of Health Abu Dhabi",
+              "https://www.doh.gov.ae/"
+            ],
+            [
+              "Abu Dhabi Residents Office",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "identity",
+          "phase": "Your first days",
+          "title": "Connect your phone and government services",
+          "body": "Arrange a SIM with a licensed provider, checking the identification requirements. Set up UAE PASS where eligible and use TAMM and ICP for the services relevant to your route. Some services require their own apps even though this planner works in the browser.",
+          "links": [
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "e& UAE",
+              "https://www.etisalat.ae/"
+            ],
+            [
+              "du",
+              "https://www.du.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "transport",
+          "phase": "Your first days",
+          "title": "Get around with taxis and Hafilat buses",
+          "body": "Use Abu Dhabi Taxi and check live availability and fares with ride providers. Abu Dhabi public buses use Hafilat cards; consult Abu Dhabi Mobility for card and route details. Compare your likely commute before deciding on a car.",
+          "links": [
+            [
+              "Abu Dhabi Taxi",
+              "https://admobility.gov.ae/en/taxi-booking"
+            ],
+            [
+              "Hafilat",
+              "https://admobility.gov.ae/en/Hafilat"
+            ],
+            [
+              "Uber Abu Dhabi",
+              "https://www.uber.com/global/en/r/cities/abu-dhabi-abu-dhabi-ae/"
+            ],
+            [
+              "Careem",
+              "https://www.careem.com/"
+            ],
+            [
+              "Yango",
+              "https://yango.com/"
+            ]
+          ]
+        },
+        {
+          "id": "bank",
+          "phase": "Get settled",
+          "title": "Prepare for personal and business banking",
+          "body": "Ask the selected bank for its current account requirements, identity/residence evidence and any income or address records. Business accounts need a separate corporate and beneficial-owner file. Approval, minimum balances and timelines depend on the bank.",
+          "links": [
+            [
+              "FAB",
+              "https://www.bankfab.com/"
+            ],
+            [
+              "ADCB",
+              "https://www.adcb.com/"
+            ],
+            [
+              "Wio",
+              "https://wio.io/"
+            ]
+          ]
+        },
+        {
+          "id": "wealth",
+          "phase": "Before you arrive",
+          "title": "Plan wealth transfers and estate arrangements",
+          "body": "Discuss account opening, transfer limits and source-of-funds evidence with the receiving bank before moving funds. Obtain advice on your previous country’s tax residence, UAE obligations and succession planning. For wills or a family office, use qualified legal and tax advisers and confirm the applicable framework.",
+          "links": [
+            [
+              "ADGM family offices",
+              "https://www.adgm.com/business-areas/family-offices"
+            ],
+            [
+              "Federal Tax Authority",
+              "https://tax.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "tax",
+          "phase": "Get settled",
+          "title": "Check business, tax and recordkeeping obligations",
+          "body": "Review corporate tax, VAT and filing obligations for the actual activity and entity. Free-zone treatment is conditional. Separate personal investment from business activity, and ask an adviser about cross-border tax residence. Keep sourced records rather than relying on a blanket “tax-free” claim.",
+          "links": [
+            [
+              "Federal Tax Authority",
+              "https://tax.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "home",
+          "phase": "Get settled",
+          "title": "Decide where to live after exploring",
+          "body": "Compare areas such as Al Reem, Yas, Saadiyat and Al Raha against your commute, household needs and budget. Inspect homes, verify agents and review payment terms. For a long-term lease, confirm Tawtheeq registration and utility requirements; for a purchase, obtain legal and financial due diligence.",
+          "links": [
+            [
+              "Tenancy services",
+              "https://mservices.dma.abudhabi.ae/mservices/account/login?l=en"
+            ],
+            [
+              "Property Finder",
+              "https://www.propertyfinder.ae/"
+            ],
+            [
+              "Abu Dhabi Residents Office",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "daily",
+          "phase": "Feel at home",
+          "title": "Set up everyday services and local connections",
+          "body": "Check food and shopping delivery coverage at your address. Browse professional and community events, arrange introductions and find a regular activity. Confirm organisers’ current dates and registration requirements.",
+          "links": [
+            [
+              "Talabat",
+              "https://www.talabat.com/uae/city/abu-dhabi"
+            ],
+            [
+              "noon Food",
+              "https://food.noon.com/"
+            ],
+            [
+              "noon",
+              "https://www.noon.com/uae-en/"
+            ],
+            [
+              "Hub71 events",
+              "https://www.hub71.com/index.php/events"
+            ],
+            [
+              "Visit Abu Dhabi",
+              "https://visitabudhabi.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "renewals",
+          "phase": "Feel at home",
+          "title": "Track costs, renewals and next steps",
+          "body": "Use the budget worksheet to enter confirmed quotes for travel, temporary housing, permits, insurance, deposits and living costs. Note which costs the employer covers. Add residence, ID, policy, licence and lease expiry dates to your calendar; residence is renewable, not a promise of permanent status.",
+          "links": [
+            [
+              "Open checklist & budget",
+              "planner.html"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trade",
+      "profile": {
+        "destination": "Abu Dhabi",
+        "goal": "trade",
+        "household": "Just me",
+        "job": "search",
+        "trading": "own"
+      },
+      "tasks": [
+        {
+          "id": "entry",
+          "phase": "Before you arrive",
+          "title": "Confirm your entry route",
+          "body": "Check the entry requirements for your passport nationality and travel purpose with the official portal and airline. Your current country of residence alone does not establish visa eligibility. Confirm passport validity and any required permit before booking.",
+          "links": [
+            [
+              "UAE entry guidance",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "trading",
+          "phase": "Before you arrive",
+          "title": "Clarify trading and financial permissions",
+          "body": "Tell banks and brokers the nature of your personal trading and prepare source-of-funds records. Confirm account eligibility, asset coverage and tax treatment directly. This plan does not recommend investments or platforms.",
+          "links": [
+            [
+              "ADGM",
+              "https://www.adgm.com/"
+            ],
+            [
+              "Federal Tax Authority",
+              "https://tax.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "documents",
+          "phase": "Before you arrive",
+          "title": "Prepare the documents your route needs",
+          "body": "Request the authority’s current checklist for passports, photos, qualifications, company papers or family certificates. Confirm attestation and translation requirements for each document; not every foreign-issued document follows the same process.",
+          "links": [
+            [
+              "MOFA attestation services",
+              "https://www.mofa.gov.ae/"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "flight",
+          "phase": "Before you arrive",
+          "title": "Arrange your flight and airport transfer",
+          "body": "Include Etihad when comparing flights to Abu Dhabi. Check entry requirements, baggage, flexible fares and cancellation terms. Keep your temporary accommodation address and arrival documents handy; arrange a licensed airport transfer.",
+          "links": [
+            [
+              "Etihad",
+              "https://www.etihad.com/"
+            ],
+            [
+              "Abu Dhabi Taxi",
+              "https://admobility.gov.ae/en/taxi-booking"
+            ]
+          ]
+        },
+        {
+          "id": "stay",
+          "phase": "Before you arrive",
+          "title": "Start with a flexible temporary home",
+          "body": "Compare hotel apartments, serviced apartments and suitable holiday-home listings before signing a long lease. Check total cost, cancellation, kitchen/laundry facilities, listing permissions and the commute. For a family, check room capacity and nearby everyday services.",
+          "links": [
+            [
+              "Booking.com",
+              "https://www.booking.com/"
+            ],
+            [
+              "Airbnb",
+              "https://www.airbnb.com/"
+            ],
+            [
+              "Living in Abu Dhabi",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "medical",
+          "phase": "Your first days",
+          "title": "Coordinate residence, medical and Emirates ID",
+          "body": "Follow your sponsor or authority’s sequence. Residence applicants aged 18 and over generally need medical fitness screening. Use an approved centre, complete required Emirates ID application/biometrics and track residence processing. Timelines depend on the route and appointments.",
+          "links": [
+            [
+              "Residence requirements",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/general-provisions-for-the-residence-visa"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ]
+          ]
+        },
+        {
+          "id": "health",
+          "phase": "Your first days",
+          "title": "Arrange your health insurance",
+          "body": "Check Abu Dhabi health insurance requirements and who must arrange and pay for coverage. Compare networks, exclusions, waiting periods and pre-existing-condition cover. Residence medical screening is separate from insurance; include dependants and elderly parents in the insurance discussion.",
+          "links": [
+            [
+              "Department of Health Abu Dhabi",
+              "https://www.doh.gov.ae/"
+            ],
+            [
+              "Abu Dhabi Residents Office",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "identity",
+          "phase": "Your first days",
+          "title": "Connect your phone and government services",
+          "body": "Arrange a SIM with a licensed provider, checking the identification requirements. Set up UAE PASS where eligible and use TAMM and ICP for the services relevant to your route. Some services require their own apps even though this planner works in the browser.",
+          "links": [
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "e& UAE",
+              "https://www.etisalat.ae/"
+            ],
+            [
+              "du",
+              "https://www.du.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "transport",
+          "phase": "Your first days",
+          "title": "Get around with taxis and Hafilat buses",
+          "body": "Use Abu Dhabi Taxi and check live availability and fares with ride providers. Abu Dhabi public buses use Hafilat cards; consult Abu Dhabi Mobility for card and route details. Compare your likely commute before deciding on a car.",
+          "links": [
+            [
+              "Abu Dhabi Taxi",
+              "https://admobility.gov.ae/en/taxi-booking"
+            ],
+            [
+              "Hafilat",
+              "https://admobility.gov.ae/en/Hafilat"
+            ],
+            [
+              "Uber Abu Dhabi",
+              "https://www.uber.com/global/en/r/cities/abu-dhabi-abu-dhabi-ae/"
+            ],
+            [
+              "Careem",
+              "https://www.careem.com/"
+            ],
+            [
+              "Yango",
+              "https://yango.com/"
+            ]
+          ]
+        },
+        {
+          "id": "bank",
+          "phase": "Get settled",
+          "title": "Prepare for personal and business banking",
+          "body": "Ask the selected bank for its current account requirements, identity/residence evidence and any income or address records. Business accounts need a separate corporate and beneficial-owner file. Approval, minimum balances and timelines depend on the bank.",
+          "links": [
+            [
+              "FAB",
+              "https://www.bankfab.com/"
+            ],
+            [
+              "ADCB",
+              "https://www.adcb.com/"
+            ],
+            [
+              "Wio",
+              "https://wio.io/"
+            ]
+          ]
+        },
+        {
+          "id": "tax",
+          "phase": "Get settled",
+          "title": "Check business, tax and recordkeeping obligations",
+          "body": "Review corporate tax, VAT and filing obligations for the actual activity and entity. Free-zone treatment is conditional. Separate personal investment from business activity, and ask an adviser about cross-border tax residence. Keep sourced records rather than relying on a blanket “tax-free” claim.",
+          "links": [
+            [
+              "Federal Tax Authority",
+              "https://tax.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "home",
+          "phase": "Get settled",
+          "title": "Decide where to live after exploring",
+          "body": "Compare areas such as Al Reem, Yas, Saadiyat and Al Raha against your commute, household needs and budget. Inspect homes, verify agents and review payment terms. For a long-term lease, confirm Tawtheeq registration and utility requirements; for a purchase, obtain legal and financial due diligence.",
+          "links": [
+            [
+              "Tenancy services",
+              "https://mservices.dma.abudhabi.ae/mservices/account/login?l=en"
+            ],
+            [
+              "Property Finder",
+              "https://www.propertyfinder.ae/"
+            ],
+            [
+              "Abu Dhabi Residents Office",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "daily",
+          "phase": "Feel at home",
+          "title": "Set up everyday services and local connections",
+          "body": "Check food and shopping delivery coverage at your address. Browse professional and community events, arrange introductions and find a regular activity. Confirm organisers’ current dates and registration requirements.",
+          "links": [
+            [
+              "Talabat",
+              "https://www.talabat.com/uae/city/abu-dhabi"
+            ],
+            [
+              "noon Food",
+              "https://food.noon.com/"
+            ],
+            [
+              "noon",
+              "https://www.noon.com/uae-en/"
+            ],
+            [
+              "Hub71 events",
+              "https://www.hub71.com/index.php/events"
+            ],
+            [
+              "Visit Abu Dhabi",
+              "https://visitabudhabi.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "renewals",
+          "phase": "Feel at home",
+          "title": "Track costs, renewals and next steps",
+          "body": "Use the budget worksheet to enter confirmed quotes for travel, temporary housing, permits, insurance, deposits and living costs. Note which costs the employer covers. Add residence, ID, policy, licence and lease expiry dates to your calendar; residence is renewable, not a promise of permanent status.",
+          "links": [
+            [
+              "Open checklist & budget",
+              "planner.html"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore",
+      "profile": {
+        "destination": "Abu Dhabi",
+        "goal": "explore",
+        "household": "Just me",
+        "job": "search",
+        "trading": "own"
+      },
+      "tasks": [
+        {
+          "id": "entry",
+          "phase": "Before you arrive",
+          "title": "Confirm your entry route",
+          "body": "Check the entry requirements for your passport nationality and travel purpose with the official portal and airline. Your current country of residence alone does not establish visa eligibility. Confirm passport validity and any required permit before booking.",
+          "links": [
+            [
+              "UAE entry guidance",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "documents",
+          "phase": "Before you arrive",
+          "title": "Prepare the documents your route needs",
+          "body": "Request the authority’s current checklist for passports, photos, qualifications, company papers or family certificates. Confirm attestation and translation requirements for each document; not every foreign-issued document follows the same process.",
+          "links": [
+            [
+              "MOFA attestation services",
+              "https://www.mofa.gov.ae/"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "flight",
+          "phase": "Before you arrive",
+          "title": "Arrange your flight and airport transfer",
+          "body": "Include Etihad when comparing flights to Abu Dhabi. Check entry requirements, baggage, flexible fares and cancellation terms. Keep your temporary accommodation address and arrival documents handy; arrange a licensed airport transfer.",
+          "links": [
+            [
+              "Etihad",
+              "https://www.etihad.com/"
+            ],
+            [
+              "Abu Dhabi Taxi",
+              "https://admobility.gov.ae/en/taxi-booking"
+            ]
+          ]
+        },
+        {
+          "id": "stay",
+          "phase": "Before you arrive",
+          "title": "Start with a flexible temporary home",
+          "body": "Compare hotel apartments, serviced apartments and suitable holiday-home listings before signing a long lease. Check total cost, cancellation, kitchen/laundry facilities, listing permissions and the commute. For a family, check room capacity and nearby everyday services.",
+          "links": [
+            [
+              "Booking.com",
+              "https://www.booking.com/"
+            ],
+            [
+              "Airbnb",
+              "https://www.airbnb.com/"
+            ],
+            [
+              "Living in Abu Dhabi",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "medical",
+          "phase": "Your first days",
+          "title": "Coordinate residence, medical and Emirates ID",
+          "body": "Follow your sponsor or authority’s sequence. Residence applicants aged 18 and over generally need medical fitness screening. Use an approved centre, complete required Emirates ID application/biometrics and track residence processing. Timelines depend on the route and appointments.",
+          "links": [
+            [
+              "Residence requirements",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/general-provisions-for-the-residence-visa"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ]
+          ]
+        },
+        {
+          "id": "health",
+          "phase": "Your first days",
+          "title": "Arrange your health insurance",
+          "body": "Check Abu Dhabi health insurance requirements and who must arrange and pay for coverage. Compare networks, exclusions, waiting periods and pre-existing-condition cover. Residence medical screening is separate from insurance; include dependants and elderly parents in the insurance discussion.",
+          "links": [
+            [
+              "Department of Health Abu Dhabi",
+              "https://www.doh.gov.ae/"
+            ],
+            [
+              "Abu Dhabi Residents Office",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "identity",
+          "phase": "Your first days",
+          "title": "Connect your phone and government services",
+          "body": "Arrange a SIM with a licensed provider, checking the identification requirements. Set up UAE PASS where eligible and use TAMM and ICP for the services relevant to your route. Some services require their own apps even though this planner works in the browser.",
+          "links": [
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "e& UAE",
+              "https://www.etisalat.ae/"
+            ],
+            [
+              "du",
+              "https://www.du.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "transport",
+          "phase": "Your first days",
+          "title": "Get around with taxis and Hafilat buses",
+          "body": "Use Abu Dhabi Taxi and check live availability and fares with ride providers. Abu Dhabi public buses use Hafilat cards; consult Abu Dhabi Mobility for card and route details. Compare your likely commute before deciding on a car.",
+          "links": [
+            [
+              "Abu Dhabi Taxi",
+              "https://admobility.gov.ae/en/taxi-booking"
+            ],
+            [
+              "Hafilat",
+              "https://admobility.gov.ae/en/Hafilat"
+            ],
+            [
+              "Uber Abu Dhabi",
+              "https://www.uber.com/global/en/r/cities/abu-dhabi-abu-dhabi-ae/"
+            ],
+            [
+              "Careem",
+              "https://www.careem.com/"
+            ],
+            [
+              "Yango",
+              "https://yango.com/"
+            ]
+          ]
+        },
+        {
+          "id": "bank",
+          "phase": "Get settled",
+          "title": "Prepare for personal and business banking",
+          "body": "Ask the selected bank for its current account requirements, identity/residence evidence and any income or address records. Business accounts need a separate corporate and beneficial-owner file. Approval, minimum balances and timelines depend on the bank.",
+          "links": [
+            [
+              "FAB",
+              "https://www.bankfab.com/"
+            ],
+            [
+              "ADCB",
+              "https://www.adcb.com/"
+            ],
+            [
+              "Wio",
+              "https://wio.io/"
+            ]
+          ]
+        },
+        {
+          "id": "home",
+          "phase": "Get settled",
+          "title": "Decide where to live after exploring",
+          "body": "Compare areas such as Al Reem, Yas, Saadiyat and Al Raha against your commute, household needs and budget. Inspect homes, verify agents and review payment terms. For a long-term lease, confirm Tawtheeq registration and utility requirements; for a purchase, obtain legal and financial due diligence.",
+          "links": [
+            [
+              "Tenancy services",
+              "https://mservices.dma.abudhabi.ae/mservices/account/login?l=en"
+            ],
+            [
+              "Property Finder",
+              "https://www.propertyfinder.ae/"
+            ],
+            [
+              "Abu Dhabi Residents Office",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "daily",
+          "phase": "Feel at home",
+          "title": "Set up everyday services and local connections",
+          "body": "Check food and shopping delivery coverage at your address. Browse professional and community events, arrange introductions and find a regular activity. Confirm organisers’ current dates and registration requirements.",
+          "links": [
+            [
+              "Talabat",
+              "https://www.talabat.com/uae/city/abu-dhabi"
+            ],
+            [
+              "noon Food",
+              "https://food.noon.com/"
+            ],
+            [
+              "noon",
+              "https://www.noon.com/uae-en/"
+            ],
+            [
+              "Hub71 events",
+              "https://www.hub71.com/index.php/events"
+            ],
+            [
+              "Visit Abu Dhabi",
+              "https://visitabudhabi.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "renewals",
+          "phase": "Feel at home",
+          "title": "Track costs, renewals and next steps",
+          "body": "Use the budget worksheet to enter confirmed quotes for travel, temporary housing, permits, insurance, deposits and living costs. Note which costs the employer covers. Add residence, ID, policy, licence and lease expiry dates to your calendar; residence is renewable, not a promise of permanent status.",
+          "links": [
+            [
+              "Open checklist & budget",
+              "planner.html"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-business-child-parents",
+      "profile": {
+        "destination": "Abu Dhabi",
+        "goal": "family",
+        "job": "offer",
+        "household": "Wife, child and parents",
+        "familyPlans": "Wife starts an online business",
+        "childAges": "3",
+        "priorities": "parents, health insurance, property, moving wealth, a will, household help"
+      },
+      "tasks": [
+        {
+          "id": "entry",
+          "phase": "Before you arrive",
+          "title": "Confirm your entry route",
+          "body": "Check the entry requirements for your passport nationality and travel purpose with the official portal and airline. Your current country of residence alone does not establish visa eligibility. Confirm passport validity and any required permit before booking.",
+          "links": [
+            [
+              "UAE entry guidance",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "work",
+          "phase": "Before you arrive",
+          "title": "Ask your employer for a relocation checklist",
+          "body": "Confirm the offer, work permit process, residence arrangements and which costs the employer covers. Ask about insurance for yourself and dependants.",
+          "links": [
+            [
+              "Employment guidance",
+              "https://u.ae/en/information-and-services/jobs/employment-in-the-private-sector/preparing-to-work"
+            ]
+          ]
+        },
+        {
+          "id": "business",
+          "phase": "Before you arrive",
+          "title": "Choose your business setup route",
+          "body": "Define the exact activity, legal structure, staffing and target customers. Compare mainland and relevant free zones. Request a route-specific checklist for trade name, formation, permissions, premises, establishment records and renewal fees. A branch or representative office needs its own parent-company document review.",
+          "links": [
+            [
+              "ADDED setup",
+              "https://www.added.gov.ae/en/set-up/establish-your-business"
+            ],
+            [
+              "Compare jurisdictions",
+              "https://www.added.gov.ae/en/grow/competitive-landscape/mainland-and-freezones"
+            ],
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ]
+          ]
+        },
+        {
+          "id": "golden",
+          "phase": "Before you arrive",
+          "title": "Review investment and Golden Residency options",
+          "body": "Choose the relevant category and confirm every evidence requirement. For property, verify the title, financing conditions and whether the proposed investment qualifies before purchase. Do not assume the investment or this profile guarantees a Golden Visa.",
+          "links": [
+            [
+              "ICP Golden Residency",
+              "https://icp.gov.ae/en/services/uae-golden-residency/"
+            ],
+            [
+              "Abu Dhabi services",
+              "https://www.tamm.abudhabi/"
+            ]
+          ]
+        },
+        {
+          "id": "documents",
+          "phase": "Before you arrive",
+          "title": "Prepare the documents your route needs",
+          "body": "Request the authority’s current checklist for passports, photos, qualifications, company papers or family certificates. Confirm attestation and translation requirements for each document; not every foreign-issued document follows the same process.",
+          "links": [
+            [
+              "MOFA attestation services",
+              "https://www.mofa.gov.ae/"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "flight",
+          "phase": "Before you arrive",
+          "title": "Arrange your flight and airport transfer",
+          "body": "Include Etihad when comparing flights to Abu Dhabi. Check entry requirements, baggage, flexible fares and cancellation terms. Keep your temporary accommodation address and arrival documents handy; arrange a licensed airport transfer.",
+          "links": [
+            [
+              "Etihad",
+              "https://www.etihad.com/"
+            ],
+            [
+              "Abu Dhabi Taxi",
+              "https://admobility.gov.ae/en/taxi-booking"
+            ]
+          ]
+        },
+        {
+          "id": "stay",
+          "phase": "Before you arrive",
+          "title": "Start with a flexible temporary home",
+          "body": "Compare hotel apartments, serviced apartments and suitable holiday-home listings before signing a long lease. Check total cost, cancellation, kitchen/laundry facilities, listing permissions and the commute. For a family, check room capacity and nearby everyday services.",
+          "links": [
+            [
+              "Booking.com",
+              "https://www.booking.com/"
+            ],
+            [
+              "Airbnb",
+              "https://www.airbnb.com/"
+            ],
+            [
+              "Living in Abu Dhabi",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "medical",
+          "phase": "Your first days",
+          "title": "Coordinate residence, medical and Emirates ID",
+          "body": "Follow your sponsor or authority’s sequence. Residence applicants aged 18 and over generally need medical fitness screening. Use an approved centre, complete required Emirates ID application/biometrics and track residence processing. Timelines depend on the route and appointments.",
+          "links": [
+            [
+              "Residence requirements",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/general-provisions-for-the-residence-visa"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ]
+          ]
+        },
+        {
+          "id": "health",
+          "phase": "Your first days",
+          "title": "Arrange health cover for each family member",
+          "body": "Check Abu Dhabi health insurance requirements and who must arrange and pay for coverage. Compare networks, exclusions, waiting periods and pre-existing-condition cover. Residence medical screening is separate from insurance; include dependants and elderly parents in the insurance discussion.",
+          "links": [
+            [
+              "Department of Health Abu Dhabi",
+              "https://www.doh.gov.ae/"
+            ],
+            [
+              "Abu Dhabi Residents Office",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "identity",
+          "phase": "Your first days",
+          "title": "Connect your phone and government services",
+          "body": "Arrange a SIM with a licensed provider, checking the identification requirements. Set up UAE PASS where eligible and use TAMM and ICP for the services relevant to your route. Some services require their own apps even though this planner works in the browser.",
+          "links": [
+            [
+              "TAMM",
+              "https://www.tamm.abudhabi/"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "e& UAE",
+              "https://www.etisalat.ae/"
+            ],
+            [
+              "du",
+              "https://www.du.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "transport",
+          "phase": "Your first days",
+          "title": "Get around with taxis and Hafilat buses",
+          "body": "Use Abu Dhabi Taxi and check live availability and fares with ride providers. Abu Dhabi public buses use Hafilat cards; consult Abu Dhabi Mobility for card and route details. Compare your likely commute before deciding on a car.",
+          "links": [
+            [
+              "Abu Dhabi Taxi",
+              "https://admobility.gov.ae/en/taxi-booking"
+            ],
+            [
+              "Hafilat",
+              "https://admobility.gov.ae/en/Hafilat"
+            ],
+            [
+              "Uber Abu Dhabi",
+              "https://www.uber.com/global/en/r/cities/abu-dhabi-abu-dhabi-ae/"
+            ],
+            [
+              "Careem",
+              "https://www.careem.com/"
+            ],
+            [
+              "Yango",
+              "https://yango.com/"
+            ]
+          ]
+        },
+        {
+          "id": "family",
+          "phase": "Your first days",
+          "title": "Plan each family member’s residence and work",
+          "body": "Check dependent sponsorship eligibility and document requirements separately. If your partner will work online or start a business, confirm the necessary authorisation rather than assuming dependent residence covers it. Each person may need their own tailored route.",
+          "links": [
+            [
+              "Family residence guidance",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-family-members"
+            ],
+            [
+              "Working in the UAE",
+              "https://u.ae/en/information-and-services/jobs/employment-in-the-private-sector/preparing-to-work"
+            ],
+            [
+              "Business setup",
+              "https://www.added.gov.ae/en/set-up/establish-your-business"
+            ]
+          ]
+        },
+        {
+          "id": "parents",
+          "phase": "Before you arrive",
+          "title": "Check your parents’ residence and care needs",
+          "body": "Ask ICP about the applicable parent sponsorship route, income/accommodation evidence and supporting documents. Compare age-specific insurance and care needs before travel. Do not assume parents have the same rules as a spouse or child.",
+          "links": [
+            [
+              "Family sponsorship guidance",
+              "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-family-members"
+            ],
+            [
+              "ICP",
+              "https://icp.gov.ae/"
+            ],
+            [
+              "Health authority",
+              "https://www.doh.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "bank",
+          "phase": "Get settled",
+          "title": "Prepare for personal and business banking",
+          "body": "Ask the selected bank for its current account requirements, identity/residence evidence and any income or address records. Business accounts need a separate corporate and beneficial-owner file. Approval, minimum balances and timelines depend on the bank.",
+          "links": [
+            [
+              "FAB",
+              "https://www.bankfab.com/"
+            ],
+            [
+              "ADCB",
+              "https://www.adcb.com/"
+            ],
+            [
+              "Wio",
+              "https://wio.io/"
+            ]
+          ]
+        },
+        {
+          "id": "wealth",
+          "phase": "Before you arrive",
+          "title": "Plan wealth transfers and estate arrangements",
+          "body": "Discuss account opening, transfer limits and source-of-funds evidence with the receiving bank before moving funds. Obtain advice on your previous country’s tax residence, UAE obligations and succession planning. For wills or a family office, use qualified legal and tax advisers and confirm the applicable framework.",
+          "links": [
+            [
+              "ADGM family offices",
+              "https://www.adgm.com/business-areas/family-offices"
+            ],
+            [
+              "Federal Tax Authority",
+              "https://tax.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "tax",
+          "phase": "Get settled",
+          "title": "Check business, tax and recordkeeping obligations",
+          "body": "Review corporate tax, VAT and filing obligations for the actual activity and entity. Free-zone treatment is conditional. Separate personal investment from business activity, and ask an adviser about cross-border tax residence. Keep sourced records rather than relying on a blanket “tax-free” claim.",
+          "links": [
+            [
+              "Federal Tax Authority",
+              "https://tax.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "home",
+          "phase": "Get settled",
+          "title": "Decide where to live after exploring",
+          "body": "Compare areas such as Al Reem, Yas, Saadiyat and Al Raha against your commute, household needs and budget. Inspect homes, verify agents and review payment terms. For a long-term lease, confirm Tawtheeq registration and utility requirements; for a purchase, obtain legal and financial due diligence.",
+          "links": [
+            [
+              "Tenancy services",
+              "https://mservices.dma.abudhabi.ae/mservices/account/login?l=en"
+            ],
+            [
+              "Property Finder",
+              "https://www.propertyfinder.ae/"
+            ],
+            [
+              "Abu Dhabi Residents Office",
+              "https://www.adro.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "children",
+          "phase": "Get settled",
+          "title": "Explore nursery or school options",
+          "body": "Use the children’s ages to decide whether nursery, kindergarten or school planning is relevant. Check admission ages, places, fees, documents, term dates and transport with schools and the Abu Dhabi education authority before committing.",
+          "links": [
+            [
+              "ADEK",
+              "https://www.adek.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "help",
+          "phase": "Get settled",
+          "title": "Hire household support through authorised channels",
+          "body": "Use a licensed domestic-worker recruitment route. Confirm the contract, sponsorship, insurance, wages and employer obligations through MOHRE before hiring.",
+          "links": [
+            [
+              "MOHRE",
+              "https://www.mohre.gov.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "daily",
+          "phase": "Feel at home",
+          "title": "Set up everyday services and local connections",
+          "body": "Check food and shopping delivery coverage at your address. Browse professional and community events, arrange introductions and find a regular activity. Confirm organisers’ current dates and registration requirements.",
+          "links": [
+            [
+              "Talabat",
+              "https://www.talabat.com/uae/city/abu-dhabi"
+            ],
+            [
+              "noon Food",
+              "https://food.noon.com/"
+            ],
+            [
+              "noon",
+              "https://www.noon.com/uae-en/"
+            ],
+            [
+              "Hub71 events",
+              "https://www.hub71.com/index.php/events"
+            ],
+            [
+              "Visit Abu Dhabi",
+              "https://visitabudhabi.ae/"
+            ]
+          ]
+        },
+        {
+          "id": "renewals",
+          "phase": "Feel at home",
+          "title": "Track costs, renewals and next steps",
+          "body": "Use the budget worksheet to enter confirmed quotes for travel, temporary housing, permits, insurance, deposits and living costs. Note which costs the employer covers. Add residence, ID, policy, licence and lease expiry dates to your calendar; residence is renewable, not a promise of permanent status.",
+          "links": [
+            [
+              "Open checklist & budget",
+              "planner.html"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
